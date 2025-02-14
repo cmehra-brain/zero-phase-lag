@@ -3,7 +3,7 @@ Code used for manuscript: https://doi.org/10.1101/2025.01.04.631256
 
 # Folders:
 Phase lag matrices
-- phase_lag_matrices.m - overall script for phase lag between region-pairs in each frequency band
+- phase_lag_matrices.m - overall script to take pre-processed EEG data and produce matrices of phase lag between region-pairs in each frequency band
 - lag_undirected.m - calculates the mean phase difference between pairs of ROIs
 - PLF_lag_padding.m - computes the phase difference between region pairs
 
