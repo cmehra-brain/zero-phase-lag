@@ -2,6 +2,16 @@
 Code used for manuscript: https://doi.org/10.1101/2025.01.04.631256
 
 # Folders:
+Phase lag matrices
+- phase_lag_matrices.m - overall script for phase lag between region-pairs in each frequency band
+- lag_undirected.m - calculates the mean phase difference between pairs of ROIs
+- PLF_lag_padding.m - computes the phase difference between region pairs
+
+Functional Connectivity Methods Code
+- functional_networks_AEC_orthAEC.m - takes pre-processed EEG data and produces functional connectivity matrices
+- functional_networks_PLV_wPLI.m - takes pre-processed EEG data and produces functional connectivity matrices
+- functional_networks_coh_img_coh.m - takes pre-processed EEG data and produces functional connectivity matrices
+
 Quantifying zero-phase-lag functional connectivity
 - histogram_lag_every_subject.m - This script produces histograms of phase distribution between -pi and +pi %radians. The histogram combines FC across all subjects.
 - near_zero_phase_versus_distance.m - Produces table of proportion of near-zero-phase-lag FC vs Euclidean distance per participant in output
