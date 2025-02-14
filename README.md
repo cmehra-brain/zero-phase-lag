@@ -9,9 +9,11 @@ Quantifying zero-phase-lag functional connectivity
 Performance as FC derived biomarkers
 - adjacency_matrix_ICC.m - produces a figure of test-retest reliability (ICC) for each method in each freq band
 - mean_matrix_plot_EEG_DWI.m - plots mean EEG and DWI matrices across participants
-- DWI_EEG_correlation.m - correlates DWI matrix with EEG matrices with each method in each frequency band + contains code to obtrain WM tract distance and proxy of WM transmission time for post hoc analyses
+- DWI_EEG_correlation.m - correlates DWI matrix with EEG matrices with each method in each frequency band + contains code to obtain WM tract distance and proxy of WM transmission time for post hoc analyses
 - select_ROI_cognition.m - takes the whole FC adjacency matrix and only keeps ROIs at are based on spatial working memory literature. ROI numbers and literature references included
-- shortest_pathlength_cognition.m - 
+- shortest_pathlength_cognition.m - produces normalised, weighted shortest pathlength from adjacency matrices for each FC method, in 4-8 Hz
+- mean_strength_age_prediction.m - produces table of mean strength for each FC method, in each frequency band
 
 Post hoc analysis
-- DWI_EEG_correlation.m - correlates DWI matrix with EEG matrices with each method in each frequency band + contains code to obtrain WM tract distance and proxy of WM transmission time for post hoc analyses
+- strength_time_penalisation_variables.m - produces streamline count, proxy for WM signal transmission time, penalisability of phase delay (penalisation scale), in preparation for post hoc mediation analysis
+- lag_FC_strength_relationship.m - looks at the relationship between phase lag and strength of functional connections
