@@ -27,3 +27,5 @@ Performance as FC derived biomarkers
 Post hoc analysis
 - strength_time_penalisation_variables.m - produces streamline count, proxy for WM signal transmission time, penalisability of phase delay (penalisation scale), in preparation for post hoc mediation analysis
 - lag_FC_strength_relationship.m - looks at the relationship between phase lag and strength of functional connections
+
+Package for diffusion imaging analysis: https://www.mr-startrack.com/ 
