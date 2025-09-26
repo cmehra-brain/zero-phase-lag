@@ -1,4 +1,5 @@
 # zero-phase-lag
+To cite this code: https://doi.org/10.5281/zenodo.17209298
 Code used for manuscript: https://doi.org/10.1101/2025.01.04.631256
 
 # Folders:
